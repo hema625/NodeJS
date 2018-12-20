@@ -6,7 +6,7 @@ var pl = require("passport-local");
 var body = require("body-parser");
 var plm = require("passport-local-mongoose");
 var User = require("./models/user")
-
+//added for master branch
 
 var app = express();
 app.use(require("express-session")({
