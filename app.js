@@ -7,7 +7,7 @@ var body = require("body-parser");
 var plm = require("passport-local-mongoose");
 var User = require("./models/user")
 
-
+//Added for new branch
 var app = express();
 app.use(require("express-session")({
     secret : "Hi",
@@ -94,8 +94,6 @@ function isLoggedIn(req,res,next)
     res.redirect("/login");
     
 }
-
-//Added for new branch
 
 app.get("/logout",function(req,res)
 {
