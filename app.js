@@ -95,6 +95,8 @@ function isLoggedIn(req,res,next)
     
 }
 
+//Added for new branch
+
 app.get("/logout",function(req,res)
 {
     req.logout();
